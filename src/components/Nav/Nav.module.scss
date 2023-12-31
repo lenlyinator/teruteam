@@ -1,0 +1,58 @@
+// import base
+@import '../GlobalStyles/GlobalStyles';
+
+// navbar
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+  position: relative;
+  padding: 25px 45px;
+  border-radius: 10px;
+
+  // for logo
+  &__logo {
+    width: 155px;
+    img {
+      display: flex;
+      width: 90px;
+    }
+  }
+
+  // for links
+  &__links {
+    display: flex;
+    align-items: center;
+    &--tree {
+      display: flex;
+      flex-grow: 1;
+      // create style for links text
+      a {
+        padding: 0 20px;
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--teru-primary-col-2);
+        transition: 0.15s;
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+  &__join-btn {
+    cursor: pointer;
+    background: var(--teru-primary-col-1);
+    outline: 0;
+    border: 0;
+    padding: 13px 25px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--teru-primary-col-2);
+    transition: 0.15s;
+    &:hover {
+      background: var(--teru-base-col-2);
+    }
+  }
+}

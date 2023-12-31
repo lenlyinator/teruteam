@@ -1,0 +1,14 @@
+// for Hero Header
+.main {
+  // margin: 10%;
+  display: flex;
+  justify-content: center;
+  // position: absolute;
+  &__text {
+    text-align: center;
+    color: white;
+    &--big {
+      font-size: 52px;
+    }
+  }
+}
