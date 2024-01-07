@@ -4,11 +4,11 @@
   display: flex;
   justify-content: center;
   // position: absolute;
-  &__text {
+  .hero {
     text-align: center;
     color: white;
-    &--big {
-      font-size: 52px;
+    img {
+      width: 300px;
     }
   }
 }
