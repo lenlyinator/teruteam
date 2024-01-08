@@ -1,8 +1,10 @@
-@use 'utils/variables';
-@use 'utils/mixin';
-@use 'utils/placeholders';
+@use './utils';
 @import 'normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*! here is a sass variables */
+$transition-default: 0.15s;
+$btn-border-radius: 20px;
 
 :root {
   --teru-base-col-1: #121212;

@@ -1,6 +1,9 @@
-// import styles from './Home.module.scss'
-import HeroHeader from '../../components/HeroHeader/HeroHeader';
+import HeroItems from '../utils/HeroItems/HeroItems';
 
 export default function Home() {
-  return <HeroHeader />;
+  return (
+    <>
+      <HeroItems />
+    </>
+  );
 }

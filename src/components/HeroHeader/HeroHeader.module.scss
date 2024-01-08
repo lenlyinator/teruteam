@@ -1,14 +1,13 @@
 // for Hero Header
 .main {
   // margin: 10%;
+  min-height: 77vh;
   display: flex;
   justify-content: center;
+  align-items: center;
   // position: absolute;
   .hero {
-    text-align: center;
+    text-align: left;
     color: white;
-    img {
-      width: 300px;
-    }
   }
 }

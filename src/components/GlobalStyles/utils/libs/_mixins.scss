@@ -1,0 +1,6 @@
+@mixin button($cursor, $radius) {
+  cursor: $cursor;
+  outline: 0;
+  border: 0;
+  border-radius: $radius;
+}
