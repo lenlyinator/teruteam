@@ -1,4 +1,6 @@
 @import '../GlobalStyles/GlobalStyles';
+@import './Navbar';
+@import '../../components/GlobalStyles/utils';
 
 // navbar
 .main {
@@ -12,12 +14,8 @@
 }
 
 .join-btn {
-  @extend %button-base;
-  // @include button(pointer, 20px); // TODO: FIX THIS LINE
-  cursor: pointer;
-  outline: 0;
-  border: 0;
-  border-radius: 20px;
+  @extend %btn-base;
+  @include btn(pointer, 20px); // TODO: FIX THIS LINE
   background: var(--teru-primary-col-1);
   color: var(--teru-primary-col-2);
   &:hover {
